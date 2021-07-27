@@ -83,9 +83,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 500;
   line-height: 1.2;
 }
-/* custom media queries */
 
-/*                      */
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -3986,6 +3984,7 @@ textarea.form-control-lg {
   margin-right: 1rem;
   font-family: 'Petit Formal Script', cursive;
   font-size: 1.25rem;
+  font-weight: 800;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -7291,8 +7290,10 @@ textarea.form-control-lg {
 .fw-bolder {
   font-weight: bolder !important;
 }
+/* custom fonts here  */
 
-/* Custom Fonts go here */
+/* index fonts go here */
+
 .fs-header-upper  {
   font-family: 'Petit Formal Script', cursive;
   font-size: 5em;
@@ -7300,9 +7301,10 @@ textarea.form-control-lg {
 }
 .fs-header-lower {
   font-family: "Montserrat", sans-serif;
-  text-align: right;
+  font-weight: 600;
   color: #000000
 }
+
 /*                       */
 
 .lh-1 {
@@ -7465,24 +7467,32 @@ textarea.form-control-lg {
 }
 
 #color-block-left {
+  background-color: rgba(0, 0, 0, .5);
+  height: 100vh;
+}
+
+
+#color-block-right {
   background-color:rgba(197, 182, 226, .5);
   height: 100vh;
 }
 
-#color-block-right {
-  background-color: rgba(196, 32, 33, .5);
-  height: 100vh;
+.btn-script {
+  font-family: 'Petit Formal Script', cursive;
+  font-weight: 1000;
 }
 
 /* custom index stlying */
-.bg-image {
-  background: url("/assets/header.svg");
-  background-position-x: center;
-  background-position-y: center;
-  background-repeat: no-repeat;
-}
 
-/*                         */
+
+
+/*         footer       */
+
+.footer{
+  position: fixed;
+}
+/*                      */
+
 .bg-dark {
   background-color: #212529 !important;
 }
