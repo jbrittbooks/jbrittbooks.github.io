@@ -13,7 +13,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
- 
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -83,7 +83,9 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   font-weight: 500;
   line-height: 1.2;
 }
+/* custom media queries */
 
+/*                      */
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -469,6 +471,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
+
 @media (min-width: 1200px) {
   .display-1 {
     font-size: 5rem;
@@ -1064,6 +1067,7 @@ progress {
 }
 
 @media (min-width: 576px) {
+
   .col-sm-auto {
     flex: 0 0 auto;
     width: auto;
@@ -1238,6 +1242,7 @@ progress {
   }
 }
 @media (min-width: 768px) {
+
   .col-md-auto {
     flex: 0 0 auto;
     width: auto;
@@ -7291,12 +7296,12 @@ textarea.form-control-lg {
 .fs-header-upper  {
   font-family: 'Petit Formal Script', cursive;
   font-size: 5em;
-  color: #ffe91f;
+  color: #000000;
 }
 .fs-header-lower {
   font-family: "Montserrat", sans-serif;
   text-align: right;
-  color: #ffe91f
+  color: #000000
 }
 /*                       */
 
@@ -7450,7 +7455,26 @@ textarea.form-control-lg {
 .bg-light {
   background-color: #f8f9fa !important;
 }
-/* Custom styling here */
+/* Custom landing styling */
+
+#landing-container {
+  background-image: url("/assets/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#color-block-left {
+  background-color:rgba(197, 182, 226, .5);
+  height: 100vh;
+}
+
+#color-block-right {
+  background-color: rgba(196, 32, 33, .5);
+  height: 100vh;
+}
+
+/* custom index stlying */
 .bg-image {
   background: url("/assets/header.svg");
   background-position-x: center;
@@ -7458,7 +7482,7 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
 }
 
-
+/*                         */
 .bg-dark {
   background-color: #212529 !important;
 }
@@ -7468,7 +7492,7 @@ textarea.form-control-lg {
 }
 
 .body {
-  background-color: #ffffff; 
+  background-color: #ffffff;
 }
 
 .bg-white {
