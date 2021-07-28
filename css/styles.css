@@ -7460,7 +7460,7 @@ textarea.form-control-lg {
 /* Custom landing styling */
 
 #landing-container {
-  background-image: url("/jbrittbooks.github.io/assets/background.jpg");
+  background-image: url("/assets/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
