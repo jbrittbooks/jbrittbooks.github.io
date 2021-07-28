@@ -7291,18 +7291,24 @@ textarea.form-control-lg {
   font-weight: bolder !important;
 }
 /* custom fonts here  */
-
-/* index fonts go here */
-
-.fs-header-upper  {
-  font-family: 'Petit Formal Script', cursive;
-  font-size: 5em;
-  color: #000000;
+.fs-script {
+  font-family: "Petit Formal Script", cursive !important;
 }
-.fs-header-lower {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  color: #000000
+
+.fs-montserrat {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.fs-5em {
+  font-size: 5em !important;
+}
+
+.fc-black  {
+  color: #000000 !important;
+}
+
+.fc-white {
+  color: #ffffff !important;
 }
 
 /*                       */
