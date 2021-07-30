@@ -578,8 +578,8 @@ progress {
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
+  background-color: #fff6c2;
+  border: 1.5px solid #fff6c2;
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
@@ -6617,6 +6617,10 @@ textarea.form-control-lg {
   min-width: 100vw !important;
 }
 
+.h-10 {
+  height: 10%;
+}
+
 .h-25 {
   height: 25% !important;
 }
@@ -7304,6 +7308,22 @@ textarea.form-control-lg {
   text-indent: 2em;
 }
 
+.fs-1em {
+  font-size: 1em !important;
+}
+
+.fs-2em {
+  font-size: 2em !important;
+}
+
+.fs-3em {
+  font-size: 3em !important;
+}
+
+.fs-4em {
+  font-size: 4em !important;
+}
+
 .fs-5em {
   font-size: 5em !important;
 }
@@ -7493,20 +7513,35 @@ textarea.form-control-lg {
 }
 
 .btn-script {
-  font-family: 'Petit Formal Script', cursive;
-  font-weight: 800;
+  font-family: 'Petit Formal Script', cursive !important;
+  font-weight: 800 !important;;
 }
-/*                                     */
+
 .bg-dark {
   background-color: #212529 !important;
+}
+
+.bg-purple {
+  background-color: #ded4ed !important;
+}
+
+.bg-red {
+  background-color: #6c0e23 !important;
+}
+
+.bg-cream {
+  background-color: #fff9d6 !important;
+}
+.bg-navy {
+  background-color: #19314d !important;
 }
 
 .bg-body {
   background-color: #fff !important;
 }
-/* Custom body color */
+
 .body {
-  background-color: #F4F1F9;
+  background-color: #ded4ed !important;;
 }
 
 .bg-white {
@@ -7516,6 +7551,8 @@ textarea.form-control-lg {
 .bg-transparent {
   background-color: transparent !important;
 }
+
+/*                                     */
 
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
