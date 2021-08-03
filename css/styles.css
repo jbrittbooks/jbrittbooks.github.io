@@ -2970,13 +2970,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #5689c8;
-  border-color: #5689c8;
+  background-color: #ec6f8a;
+  border-color: #ec6f8a;
 }
 .btn-primary:hover {
-  color: #5689c8;
+  color: #ec6f8a;
   background-color: #fff;
-  border-color: #5689c8;
+  border-color: #ec6f8a;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
