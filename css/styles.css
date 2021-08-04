@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Petit+Formal+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Petit+Formal+Script&display=swap');
 
 /*!
 * Start Bootstrap - Blog Home v5.0.2 (https://startbootstrap.com/template/blog-home)
@@ -2961,7 +2961,7 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(253, 13, 113, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
@@ -2980,22 +2980,22 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
-  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+  background-color: #ec6f8a;
+  border-color: #ec6f8a;
+  box-shadow: 0 0 0 0.25rem rgba(253, 49, 110, 0.5);
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #0a58ca;
-  border-color: #0a53be;
+  background-color: #ec6f8a;
+  border-color: #ec6f8a;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(253, 49, 110, 0.5);
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd;
+  background-color: #ec6f8a;
+  border-color: #ec6f8a;
 }
 
 .btn-secondary {
@@ -7298,7 +7298,7 @@ textarea.form-control-lg {
 .fw-bolder {
   font-weight: bolder !important;
 }
-/* Custom Fonts */
+/* custom Fonts */
 .fs-script {
   font-family: "Petit Formal Script", cursive !important;
 }
@@ -7307,11 +7307,17 @@ textarea.form-control-lg {
   font-family: "Montserrat", sans-serif !important;
 }
 
+.fs-oswald {
+  font-family: 'Oswald', sans-serif;
+}
 
 .fs-ti {
   text-indent: 2em;
 }
 
+.td-none {
+  text-decoration: none !important;
+}
 .fs-1em {
   font-size: 1em !important;
 }
@@ -7471,11 +7477,11 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #0d6efd !important;
+  background-color: #ded4ed !important;
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #fff9d6 !important;
 }
 
 .bg-success {
@@ -7497,11 +7503,8 @@ textarea.form-control-lg {
 .bg-light {
   background-color: #f8f9fa !important;
 }
-/* Custom  styling */
+/* custom  styling */
 
-/* Author Page */
-
-/* Index page */
 .bg-image {
   background-image: url("/assets/background.jpg");
   background-size: cover;
@@ -7531,6 +7534,10 @@ textarea.form-control-lg {
 
 .bg-purple {
   background-color: #ded4ed !important;
+}
+
+.bg-purple-dark {
+  background-color: #916FC3 !important;
 }
 
 .bg-red {
