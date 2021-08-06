@@ -82,6 +82,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h1, .h1 {
@@ -2950,6 +2951,7 @@ textarea.form-control-lg {
   font-size: 1rem;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  min-width: ();
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -6605,6 +6607,10 @@ textarea.form-control-lg {
   width: auto !important;
 }
 
+.mw-75 {
+  max-width: 75% !important;
+}
+
 .mw-100 {
   max-width: 100% !important;
 }
@@ -6641,8 +6647,23 @@ textarea.form-control-lg {
   height: auto !important;
 }
 
+.mh-50 {
+  max-height: 50% !important;
+}
+
+.mh-75 {
+  max-height: 75% !important;
+}
 .mh-100 {
   max-height: 100% !important;
+}
+
+.vh-50 {
+  height: 50vh !important;
+}
+
+.vh-75 {
+  height: 75vh !important;
 }
 
 .vh-100 {
@@ -7350,6 +7371,7 @@ textarea.form-control-lg {
   color: #ffffff !important;
 }
 
+/* custom cards */
 
 /*                       */
 
@@ -7560,12 +7582,11 @@ textarea.form-control-lg {
 }
 
 .body {
-  background-color: #ded4ed !important;;
+  background-color: #ded4ed !important;
+  font-family: 'Montserrat', sans-serif;;
 }
 
-.fb-btn {
-  display: none;
-}
+
 /*                                       */
 
 .bg-white {
@@ -7628,6 +7649,10 @@ textarea.form-control-lg {
 
 .rounded-3 {
   border-radius: 0.3rem !important;
+}
+
+.rounded-4 {
+  border-radius: 0.5rem !important;
 }
 
 .rounded-circle {
