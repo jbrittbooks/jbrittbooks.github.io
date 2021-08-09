@@ -6532,11 +6532,11 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-  border-color: #0d6efd !important;
+  border-color: #FFF099 !important;
 }
 
 .border-secondary {
-  border-color: #6c757d !important;
+  border-color: #D3C5E7 !important;
 }
 
 .border-success {
@@ -6656,6 +6656,10 @@ textarea.form-control-lg {
 }
 .mh-100 {
   max-height: 100% !important;
+}
+
+.mx-bx {
+  max-height: 21.875rem !important;
 }
 
 .vh-50 {
@@ -7265,7 +7269,7 @@ textarea.form-control-lg {
 }
 
 .fs-05 {
-  font-size: calc(.005rem + 1.5vw) !important;
+  font-size: calc(.000005rem + 1.5vw) !important;
 }
 
 .fs-1 {
@@ -7339,29 +7343,6 @@ textarea.form-control-lg {
 .td-none {
   text-decoration: none !important;
 }
-.fs-1em {
-  font-size: 1em !important;
-}
-
-.fs-1-5em {
-  font-size: 1.5em !important;
-}
-
-.fs-2em {
-  font-size: 2em !important;
-}
-
-.fs-3em {
-  font-size: 3em !important;
-}
-
-.fs-4em {
-  font-size: 4em !important;
-}
-
-.fs-5em {
-  font-size: 5em !important;
-}
 
 .fc-black  {
   color: #000000 !important;
@@ -7372,6 +7353,10 @@ textarea.form-control-lg {
 }
 
 /* custom cards */
+
+.box {
+  min-height: 48.5rem;
+}
 
 /*                       */
 
