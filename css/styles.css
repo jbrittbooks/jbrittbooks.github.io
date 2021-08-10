@@ -7355,10 +7355,22 @@ textarea.form-control-lg {
 /* custom cards */
 
 .box {
-  min-height: 48.5rem;
+  min-height: 51.5625rem;
 }
 
-/*                       */
+.box-p-h {
+  min-height: 5rem;
+}
+
+.text-box {
+  min-height: 26.125rem;
+}
+
+/*        custom effect        */
+
+.td-none:hover {
+  color: #ec6f8a !important;
+}
 
 .lh-1 {
   line-height: 1 !important;
