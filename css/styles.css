@@ -639,6 +639,27 @@ progress {
     max-width: 1320px;
   }
 }
+
+/*  custom break point */
+@media (min-width: 400px) {
+  .text-box {
+    min-height: 33rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .book-text-body {
+    min-height: 21.5rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .text-box {
+    min-height: 27rem;
+  }
+}
+
+/*  */
 .row {
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
@@ -2952,6 +2973,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   min-width: ();
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -6599,6 +6621,18 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+.w-80 {
+  width: 80% !important;
+}
+
+.w-85 {
+  width: 85% !important;
+}
+
+.w-90 {
+  width: 90% !important;
+}
+
 .w-100 {
   width: 100% !important;
 }
@@ -7317,7 +7351,7 @@ textarea.form-control-lg {
 }
 
 .fw-bold {
-  font-weight: 700 !important;
+  font-weight: 475 !important;
 }
 
 .fw-bolder {
@@ -7362,9 +7396,7 @@ textarea.form-control-lg {
   min-height: 5rem;
 }
 
-.text-box {
-  min-height: 26.125rem;
-}
+
 
 /*        custom effect        */
 
