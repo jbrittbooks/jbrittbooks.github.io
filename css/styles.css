@@ -7565,17 +7565,6 @@ textarea.form-control-lg {
   background-position: center;
 }
 
-#color-block-left {
-  background-color: rgba(0, 0, 0, .5);
-  height: 100vh;
-}
-
-
-#color-block-right {
-  background-color:rgba(197, 182, 226, .5);
-  height: 100vh;
-}
-
 .btn-script {
   font-family: 'Petit Formal Script', cursive !important;
   font-weight: 800 !important;;
