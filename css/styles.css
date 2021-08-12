@@ -7323,7 +7323,7 @@ textarea.form-control-lg {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.275rem + 1vw) !important;
 }
 
 .fs-6 {
@@ -7394,6 +7394,10 @@ textarea.form-control-lg {
 
 .box-p-h {
   min-height: 5rem;
+}
+
+.author-box {
+  min-height: 71.625rem;
 }
 
 /*        custom effect        */
