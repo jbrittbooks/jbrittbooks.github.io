@@ -647,7 +647,7 @@ progress {
   }
 }
 
-/* @media (min-width: 1000px) {
+@media (min-width: 1000px) {
   .book-text-body {
     min-height: 21.5rem;
   }
@@ -657,7 +657,7 @@ progress {
   .text-box {
     min-height: 25rem;
   }
-} */
+}
 
 
 /*  */
