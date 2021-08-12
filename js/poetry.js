@@ -12,11 +12,11 @@ let trilogyShareBtn = document.getElementById("trilogyShareBtn");
 let trilogyPreviewBtn = document.getElementById("trilogyPreviewBtn");
 
 //trilogy text option
-let trilogyBookHeaderOptions = ["Closed Doors", "Love You Can Feel", "Big Eraser"];
+let trilogyBookHeaderOptions = ["Closed Doors", "Love You Can Feel", "Joy is a Choice"];
 let trilogyBookPoemOptions = [
   "Sometimes doors are closed<br>To save us anguish and precious time<br>And give God room to swing open<br>The doors He has in mind.<br><br>I've learned<br>In this lifetime <br>Don't push on closed doors<br>Too hard<br>The entryway may be blocked<br>By the protective arms of God.",
-  "Sometimes I don't know this person<br>You're changing me into<br>Flaming Beauty<br>From inside out<br>For all to see it's you<br><br>Strangers come up to me<br>With a smile on their face",
-  "Lord,<br>You are so tender<br>With Your creation<br>You watch us<br>Fumble, and falter, and fall<br>Instead of rejecting us<br>For our flaws<br>You died<br>To save us all<br><br>You could have used<br>Your big eraser<br>Started over from scratch<br>Instead, you rose on Easter morn<br>So to heaven You can take us back"
+  "Did you ever<br>Feel love<br>Love you could share <br>Bubbling all over<br>Landing here and there?<br></br><br></br>There once was a time<br>I'd gotten kind of flat <br>The Lord came along <br>And said,\"That's enough of that!<br>The love I have for you <br>I want you to<br>Experience <br>Delve into my joy<br>Find your deliverance.\"<br><br>Well, I took Him at His word <br>And dared to enter in<br></br>Love so sweet<br>It's tasty<br>I found in my Good Friend!",
+  "When my dream died<br>I thought I'd do wrong <br>Be forever sad<br>But forever is too long.<br><br>Today, I changed my mind<br>It's happy I will be<br>It's a choice I can make<br>Jesus left it up to me.<br><br>The blood He shed<br>Covered guilt, regret, and doubt <br>Fear, suffering, sin<br>Did I leave anything out?<br><br>He gave us victory<br>Our souls He freed<br>Blessed in heavenly places <br>With all our needs.<br>Though circumstance<br>The body may control <br>It can't bind a mind<br>Tied to the soul.Remember His goodness <br>Relish every drop<br>Joy is a choice<br>No one else can stop.<br><br>Under the Influence<br>Spoken Praise<br>"
 ];
 
 //Trilogy image change

@@ -655,8 +655,13 @@ progress {
 
 @media (min-width: 1400px) {
   .text-box {
-    min-height: 25rem;
+    min-height: 28rem;
   }
+}
+
+#trilogy-poem {
+  font-size: .8rem !important;
+  min-height: 30.5rem;
 }
 
 

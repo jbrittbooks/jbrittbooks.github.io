@@ -25,7 +25,7 @@ let lottiePreviewBtn = document.getElementById("lottie-preview-btn");
 
 
 // fire text options
-let fireBookHeaderOptions = ["\"Everbody at church ain't in church!\" - Mother Whatnot","D-o-u-g gets his!"];
+let fireBookHeaderOptions = ["\"Everbody at church ain't in church!\" -Mother Whatnot","D-o-u-g gets his!"];
 let fireBookTextOptions = ["Preacher’s kids, Money and Melissa, have been going to church all of their lives; Wanza and Yteesha, not so much. But none of that matters if Mother Whatnot’s conviction is true: \“Everybody at church ain’t in church.\” Their lives intersect when Melissa, oh, so sweetly, steals Wanza’s ambitious, empire-building husband, Douglas, who happens to be promoting a star-studded mega concert as the grand gala for Fisk University’s Sesquicentennial Celebration. Douglas also chairs the Finance Committee at True Vine Ministries, Inc. where Melissa has aligned herself in order to get up-close-and-personal with Nashville’s rich and famous elite. It’s not the first time finance has turned to romance, but it certainly turns up the heat when they all find themselves—Dipped in the Fire—a story of great tragedy and great joy!", "Pastor Meadows summed up the situation. \"And it's not a good life plan to use women to feather your nest--be they black or white, rich or poor.\" But multi-millionaire, star music promoter, Douglas Grand, hasn't learned his lesson; at least, not yet. But D-O-U-G is gonna get his! Because no matter who you think you are, you always need to know who you're dealing with; or else you might find yourself--Double-Dipped in the Fire. But in the midst of it all, love lost can sometimes be found."];
 
 //lottie text options
