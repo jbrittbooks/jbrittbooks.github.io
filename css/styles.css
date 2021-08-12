@@ -55,12 +55,12 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-font-sans-serif);
+  font-family: 'Montserrat', sans-serif;;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #ded4ed;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -640,14 +640,14 @@ progress {
   }
 }
 
-/*  custom break point */
+ /* custom break point */
 @media (min-width: 400px) {
   .text-box {
-    min-height: 33rem;
+    min-height: 28rem;
   }
 }
 
-@media (min-width: 1000px) {
+/* @media (min-width: 1000px) {
   .book-text-body {
     min-height: 21.5rem;
   }
@@ -655,9 +655,10 @@ progress {
 
 @media (min-width: 1400px) {
   .text-box {
-    min-height: 27rem;
+    min-height: 25rem;
   }
-}
+} */
+
 
 /*  */
 .row {
@@ -2973,7 +2974,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   min-width: ();
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -3000,8 +3001,15 @@ textarea.form-control-lg {
 .btn-primary:hover {
   color: #ec6f8a;
   background-color: #fff;
-  border-color: #ec6f8a;
+  border-color: #fff;
 }
+/* custom btn */
+#headerbtn:hover {
+  background-color: transparent !important;
+  box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0.0) !important;
+  transform: scale(1.01);
+}
+/*  */
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #ec6f8a;
@@ -7559,11 +7567,15 @@ textarea.form-control-lg {
 /* custom  styling */
 
 .bg-image {
+  display: flex;
+  align-items: center;
   background-image: url("/assets/background.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  height: 100vh;
 }
+
 
 .btn-script {
   font-family: 'Petit Formal Script', cursive !important;
@@ -7572,6 +7584,10 @@ textarea.form-control-lg {
 
 .bg-dark {
   background-color: #212529 !important;
+}
+
+.bg-dark-trans {
+  background-color: rgba(33, 37, 41, .75) !important;
 }
 
 .bg-purple {
@@ -7586,12 +7602,20 @@ textarea.form-control-lg {
   background-color: #6c0e23 !important;
 }
 
+.bg-red-trans {
+  background-color: rgba(108, 14, 35, .5);
+}
+
 .bg-red-light {
   background-color: #ec6f8a !important;
 }
 
 .bg-cream {
   background-color: #fff9d6 !important;
+}
+
+.bg-cream-trans {
+  background-color: rgba(255, 246, 194, .5) !important;
 }
 .bg-blue {
   background-color: #d1dff0 !important;
@@ -7600,12 +7624,6 @@ textarea.form-control-lg {
 .bg-body {
   background-color: #fff !important;
 }
-
-.body {
-  background-color: #ded4ed !important;
-  font-family: 'Montserrat', sans-serif;;
-}
-
 
 /*                                       */
 
@@ -7674,6 +7692,11 @@ textarea.form-control-lg {
 .rounded-4 {
   border-radius: 0.5rem !important;
 }
+
+.rounded-5 {
+  border-radius: 1rem !important;
+}
+
 
 .rounded-circle {
   border-radius: 50% !important;
