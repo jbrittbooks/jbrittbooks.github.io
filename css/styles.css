@@ -660,8 +660,8 @@ progress {
 }
 
 #trilogy-poem {
-  font-size: .8rem !important;
-  min-height: 30.5rem;
+  font-size: .85rem !important;
+  min-height: 29rem;
 }
 
 
@@ -3004,15 +3004,14 @@ textarea.form-control-lg {
   border-color: #ec6f8a;
 }
 .btn-primary:hover {
-  color: #ec6f8a;
-  background-color: #fff;
-  border-color: #fff;
+  color: #fff;
+  background-color: #F6B6C4;
+  border-color: #F6B6C4;
 }
 /* custom btn */
 #headerbtn:hover {
   background-color: transparent !important;
   box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0.0) !important;
-  transform: scale(1.01);
 }
 /*  */
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -7415,10 +7414,6 @@ textarea.form-control-lg {
 
 /*        custom effect        */
 
-.td-none:hover {
-  color: #ec6f8a !important;
-}
-
 .lh-1 {
   line-height: 1 !important;
 }
@@ -7599,8 +7594,8 @@ textarea.form-control-lg {
   background-color: #ded4ed !important;
 }
 
-.bg-purple-dark {
-  background-color: #916FC3 !important;
+.bg-purple-trans {
+  background-color: rgba(211, 197, 231, .75) !important;
 }
 
 .bg-red {
@@ -7612,7 +7607,7 @@ textarea.form-control-lg {
 }
 
 .bg-red-light {
-  background-color: #ec6f8a !important;
+  background-color: #F6B6C4 !important;
 }
 
 .bg-cream {
