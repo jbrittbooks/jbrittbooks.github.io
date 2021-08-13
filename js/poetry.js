@@ -12,7 +12,7 @@ let trilogyShareBtn = document.getElementById("trilogyShareBtn");
 let trilogyPreviewBtn = document.getElementById("trilogyPreviewBtn");
 
 //trilogy text option
-let trilogyBookHeaderOptions = ["Closed Doors", "Love You Can Feel", "Joy is a Choice"];
+let trilogyBookHeaderOptions = ["Closed Doors", "Love You Can Feel", "Sometimes You Sing Alone"];
 let trilogyBookPoemOptions = [
   "Sometimes doors are closed<br>To save us anguish and precious time<br>And give God room to swing open<br>The doors He has in mind.<br><br>I've learned<br>In this lifetime <br>Don't push on closed doors<br>Too hard<br>The entryway may be blocked<br>By the protective arms of God.",
   "Did you ever<br>Feel love<br>Love you could share <br>Bubbling all over<br>Landing here and there?<br><br>There once was a time<br>I'd gotten kind of flat <br>The Lord came along <br>And said,\"That's enough of that!<br>The love I have for you <br>I want you to<br>Experience <br>Delve into my joy<br>Find your deliverance.\"<br><br>Well, I took Him at His word <br>And dared to enter in<br></br>Love so sweet<br>It's tasty<br>I found in my Good Friend!",
