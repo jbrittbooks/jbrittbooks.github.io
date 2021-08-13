@@ -7363,7 +7363,7 @@ textarea.form-control-lg {
 }
 
 .fw-bold {
-  font-weight: 475 !important;
+  font-weight: 600 !important;
 }
 
 .fw-bolder {
@@ -7569,7 +7569,7 @@ textarea.form-control-lg {
 .bg-image {
   display: flex;
   align-items: center;
-  background-image: url("/assets/background.jpg");
+  background-image: url("/assets/background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
