@@ -2979,6 +2979,7 @@ textarea.form-control-lg {
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   min-width: ();
+  max-height: 2.35rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 @media (prefers-reduced-motion: reduce) {
@@ -3009,6 +3010,17 @@ textarea.form-control-lg {
   border-color: #F6B6C4;
 }
 /* custom btn */
+.contact-btn {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+.contact-btn:hover {
+  text-shadow: .15rem .15rem rgba(0, 0, 0, 0.15) !important;
+  color: #6a6a6a;
+}
+
 #headerbtn:hover {
   background-color: transparent !important;
   box-shadow: 0 0 0 0rem rgba(0, 0, 0, 0.0) !important;
