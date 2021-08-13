@@ -7576,6 +7576,16 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
+.bg-image-purple {
+  display: flex;
+  align-items: center;
+  background-image: url("/assets/background-purple.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 95vh;
+}
+
 
 .btn-script {
   font-family: 'Petit Formal Script', cursive !important;
