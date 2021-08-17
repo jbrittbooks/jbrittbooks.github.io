@@ -2999,13 +2999,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ec6f8a;
-  border-color: #ec6f8a;
+  background-color: #FF9447;
+  border-color: #FF9447;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #F6B6C4;
-  border-color: #F6B6C4;
+  background-color: #FFCFAD;
+  border-color: #FFCFAD;
 }
 /* custom btn */
 .contact-btn {
@@ -3050,8 +3050,8 @@ textarea.form-control-lg {
 
 .btn-secondary {
   color: #fff;
-  background-color: #1E3A5C;
-  border-color: #1E3A5C;
+  background-color: #32619A;
+  border-color: #32619A;
 }
 .btn-secondary:hover {
   color: #fff;
@@ -7627,11 +7627,11 @@ textarea.form-control-lg {
 }
 
 .bg-red-trans {
-  background-color: rgba(108, 14, 35, .5);
+  background-color: rgba(255, 136, 51, 0.5);
 }
 
 .bg-red-light {
-  background-color: #F6B6C4 !important;
+  background-color: #FFCFAD !important;
 }
 
 .bg-cream {
