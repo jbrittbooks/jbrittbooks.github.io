@@ -14,9 +14,9 @@ let trilogyPreviewBtn = document.getElementById("trilogyPreviewBtn");
 //trilogy text option
 let trilogyBookHeaderOptions = ["Closed Doors", "Love You Can Feel", "Sometimes You Sing Alone"];
 let trilogyBookPoemOptions = [
-  "Sometimes doors are closed<br>To save us anguish and precious time<br>And give God room to swing open<br>The doors He has in mind.<br><br>I've learned<br>In this lifetime <br>Don't push on closed doors<br>Too hard<br>The entryway may be blocked<br>By the protective arms of God.",
-  "Did you ever<br>Feel love<br>Love you could share <br>Bubbling all over<br>Landing here and there?<br><br>There once was a time<br>I'd gotten kind of flat <br>The Lord came along <br>And said,\"That's enough of that!<br>The love I have for you <br>I want you to<br>Experience <br>Delve into my joy<br>Find your deliverance.\"<br><br>Well, I took Him at His word <br>And dared to enter in<br></br>Love so sweet<br>It's tasty<br>I found in my Good Friend!",
-  "Lone nightingale<br>In a pear tree<br>Moon pulls back the clouds<br>Strains to see.<br>The golden throat<br>On the beautiful bird<br>Chirping and warbling<br>A pleasing song to be heard.<br><br>Where is your partner<br>Brave little one<br>As your heart lifts up to heaven<br>Your song to the son?<br><br> Sometimes your companions<br>Sing sad songs<br>Sometimes like the nightingale<br>You're left to sing alone.<br><br> But don't you dare give up<br>Hang your harp upon a tree<br>Keep singing Zion's songs<br>Until we all get on key."
+  "<br>Sometimes doors are closed<br>To save us anguish and precious time<br>And give God room to swing open<br>The doors He has in mind.<br><br>I've learned<br>In this lifetime <br>Don't push on closed doors<br>Too hard<br>The entryway may be blocked<br>By the protective arms of God.",
+  "Did you ever<br>Feel love<br>Love you could share <br>Bubbling all over<br>Landing here and there?<br><br>There once was a time<br>I'd gotten kind of flat <br>The Lord came along <br>And said, \"That's enough of that!<br><br>The love I have for you <br>I want you to<br>Experience <br>Delve into my joy<br>Find your deliverance.\"<br><br>Well, I took Him at His word <br>And dared to enter in love so sweet<br>It's tasty<br>I found in my Good Friend!",
+  "Lone nightingale<br>In a pear tree<br>Moon pulls back the clouds<br>Strains to see. <br><br>The golden throat<br>On the beautiful bird<br>Chirping and warbling<br>A pleasing song to be heard.<br><br>Where is your partner<br>Brave little one<br>As your heart lifts up to heaven<br>Your song to the son?<br><br> Sometimes your companions<br>Sing sad songs<br>Sometimes like the nightingale<br>You're left to sing alone.<br><br> But don't you dare give up<br>Hang your harp upon a tree<br>Keep singing Zion's songs<br>Until we all get on key."
 ];
 
 //Trilogy image change
@@ -38,14 +38,17 @@ const trilogyChangeText = function(string) {
   if(string === "bookOne") {
     trilogyBookHeader.innerHTML = trilogyBookHeaderOptions[0];
     trilogyBookPoem.innerHTML = trilogyBookPoemOptions [0];
+    trilogyBookPoem.style.fontSize = "1rem"
   };
   if(string === "bookTwo") {
     trilogyBookHeader.innerHTML = trilogyBookHeaderOptions[1];
     trilogyBookPoem.innerHTML = trilogyBookPoemOptions [1];
+    trilogyBookPoem.style.fontSize = ".8rem"
   };
   if(string === "bookThree") {
     trilogyBookHeader.innerHTML = trilogyBookHeaderOptions[2];
-    trilogyBookPoem.innerHTML = trilogyBookPoemOptions [2];
+    trilogyBookPoem.innerHTML = trilogyBookPoemOptions[2]
+    trilogyBookPoem.style.fontSize = ".75rem"
   };
 };
 
