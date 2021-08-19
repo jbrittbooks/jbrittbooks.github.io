@@ -35,23 +35,23 @@ let lottieBookBodyOptions = ["Lottie Garrett’s career as a partner in a New Yo
 //fire image change
 let fireChangeImage = function(string) {
   if(string === "fireBookOne") {
-    fireBookImage.src="assets/resize/dipped-in-the-fire_250.JPG";
+    fireBookImage.src="/assets/resize/dipped-in-the-fire_250.JPG";
   };
   if(string === "fireBookTwo") {
-    fireBookImage.src="assets/resize/double-dipped-in-the-fire_250.JPG";
+    fireBookImage.src="/assets/resize/double-dipped-in-the-fire_250.JPG";
   };
 };
 
 //lottie change image
 let lottieChangeImage = function(string) {
   if(string === "lottieBookOne") {
-    lottieBookImage.src="assets/resize/pickin-ground-orig_250.JPG";
+    lottieBookImage.src="/assets/resize/pickin-ground-orig_250.JPG";
   };
   if(string === "lottieBookTwo") {
-    lottieBookImage.src="assets/resize/in-due-season-org_250.JPG";
+    lottieBookImage.src="/assets/resize/in-due-season-org_250.JPG";
   };
   if(string === "lottieBookThree") {
-    lottieBookImage.src="assets/resize/lottie-orig_250.JPG"
+    lottieBookImage.src="/assets/resize/lottie-orig_250.JPG"
   };
 };
 

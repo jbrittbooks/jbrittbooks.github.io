@@ -22,13 +22,13 @@ let trilogyBookPoemOptions = [
 //Trilogy image change
 const trilogyChangeImage = function(string) {
   if (string === "bookOne") {
-    trilogyBookImage.src="assets/resize/poems-from-the-fast_250x380.JPG";
+    trilogyBookImage.src="/assets/resize/poems-from-the-fast_250x380.JPG";
   };
   if (string === "bookTwo") {
-    trilogyBookImage.src="assets/resize/reunion_250x380.JPG";
+    trilogyBookImage.src="/assets/resize/reunion_250x380.JPG";
   };
   if (string === "bookThree") {
-    trilogyBookImage.src="assets/resize/third-ear_250x380.JPG";
+    trilogyBookImage.src="/assets/resize/third-ear_250x380.JPG";
   };
 };
 
