@@ -572,11 +572,6 @@ progress {
   content: "— ";
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-}
-
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff6c2;
@@ -641,9 +636,20 @@ progress {
 }
 
  /* custom break point */
+
+@media (min-width: 100px) {
+  .img-fluid {
+    height: 6rem;
+  }
+}
+
 @media (min-width: 400px) {
   .text-box {
     min-height: 28rem;
+  }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -651,19 +657,21 @@ progress {
   .book-text-body {
     min-height: 21.5rem;
   }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 @media (min-width: 1400px) {
   .text-box {
     min-height: 28rem;
   }
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
 }
-
-/* #trilogy-poem {
-  min-height: 32rem;
-} */
-
-
 /*  */
 .row {
   --bs-gutter-x: 1.5rem;
