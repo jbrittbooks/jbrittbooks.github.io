@@ -638,7 +638,7 @@ progress {
  /* custom break point */
 
 @media (min-width: 100px) {
-  .img-fluid {
+  .img-fluid-header {
     height: 5rem;
     width: 100%;
   }
@@ -648,7 +648,7 @@ progress {
   .text-box {
     min-height: 28rem;
   }
-  .img-fluid {
+  .img-fluid-header {
     max-width: 100%;
     height: auto;
   }
@@ -658,7 +658,7 @@ progress {
   .book-text-body {
     min-height: 21.5rem;
   }
-  .img-fluid {
+  .img-fluid-header {
     max-width: 100%;
     height: auto;
   }
@@ -668,10 +668,15 @@ progress {
   .text-box {
     min-height: 28rem;
   }
-  .img-fluid {
+  .img-fluid-header {
     max-width: 100%;
     height: auto;
   }
+}
+
+.img-fluid-header {
+  max-width: 100%;
+  height: auto;
 }
 /*  */
 .row {
