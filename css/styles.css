@@ -639,7 +639,8 @@ progress {
 
 @media (min-width: 100px) {
   .img-fluid {
-    height: 6rem;
+    height: 5rem;
+    width: 100%;
   }
 }
 
