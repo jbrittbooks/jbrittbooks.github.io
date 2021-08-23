@@ -3066,6 +3066,8 @@ textarea.form-control-lg {
   color: #fff;
   background-color: #32619A;
   border-color: #32619A;
+  min-height: 2.375;
+
 }
 .btn-secondary:hover {
   color: #fff;
@@ -7398,6 +7400,9 @@ textarea.form-control-lg {
   font-weight: bolder !important;
 }
 /* custom Fonts */
+
+
+
 .fs-script {
   font-family: "Petit Formal Script", cursive !important;
 }
@@ -7433,7 +7438,7 @@ textarea.form-control-lg {
 }
 
 .box-p-h {
-  min-height: 5rem;
+  min-height: 3rem;
 }
 
 .author-box {
@@ -7604,22 +7609,6 @@ textarea.form-control-lg {
   height: 100vh;
 }
 
-.bg-image-purple {
-  display: flex;
-  align-items: center;
-  background-image: url("/assets/background-purple.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 95vh;
-}
-
-
-.btn-script {
-  font-family: 'Petit Formal Script', cursive !important;
-  font-weight: 800 !important;;
-}
-
 .bg-dark {
   background-color: #212529 !important;
 }
@@ -7655,6 +7644,7 @@ textarea.form-control-lg {
 .bg-cream-trans {
   background-color: rgba(255, 246, 194, .5) !important;
 }
+
 .bg-blue {
   background-color: #d1dff0 !important;
 }
