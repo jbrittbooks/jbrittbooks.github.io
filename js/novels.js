@@ -1,4 +1,3 @@
-console.log("novels js on")
 // fire series variables
 let fireBookImage = document.getElementById("fire-image");
 let fireBookHeader = document.getElementById("fire-inner-header");
